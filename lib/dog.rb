@@ -3,6 +3,7 @@ class Dog
     @name = name
     if breed == nil
       breed = "Mutt"
+      return breed
       @breed = breed
     else
       @breed = breed
