@@ -4,8 +4,6 @@ class Dog
     @breed = breed
     if breed == nil
       @breed = 'Mutt'
-    else
-      break
     end
   end
 end
